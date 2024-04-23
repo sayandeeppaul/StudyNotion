@@ -8,6 +8,7 @@ import CodeBlocks from "../components/core/HomePage/CodeBlocks";
 import TimelineSection from "../components/core/HomePage/TimelineSection";
 import LearningLanguageSection from "../components/core/HomePage/LearningLanguageSection";
 import InstructorSection from "../components/core/HomePage/InstructorSection";
+import ExploreMore from "../components/core/HomePage/ExploreMore";
 import Footer from "../components/common/Footer";
 
 function Home() {
@@ -131,6 +132,7 @@ function Home() {
             codeColor={"text-caribbeangreen-300"}
           />
         </div>
+        <ExploreMore/>
       </div>
 
       {/* section 2  */}
